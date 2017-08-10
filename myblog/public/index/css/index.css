@@ -1,0 +1,49 @@
+@charset "gb2312";
+/* CSS Document */
+body,ul,div,img,h5,h4,h3,h2,h1,p,span,table,figure,i,li{ margin:0; padding:0}
+a:link, a:visited {text-decoration: none; } 
+img{ border:0}
+body{font-size:12px;background:#80C7DB url(../images/90304_top.jpg)  50% -60px scroll no-repeat;color:#5d5d5d; }
+.blank{ height:5px; overflow:hidden; width:100%; margin:auto; clear:both}
+header{ padding:50px 0  30px 0; width:1000px;  margin:auto; }
+header h1{ font-size:22px; font-weight:normal;text-shadow:#fff 1px 1px 1px;}
+header h1 a{color:#000}
+header h1 a:hover{ text-decoration:underline}
+header p{margin:17px 0 0 0;text-shadow:#000 1px 1px 1px;color:#fff}
+.navswf{ position:relative; width:1000px; margin:auto}
+#nav{
+	width: 100%;
+	line-height: 40px;
+	height: 40px;
+	margin: auto;
+	position: absolute;
+	left: 0px;
+	top: 15px;
+}/* navÔ²½Ç±³¾° */
+#nav ul{ list-style:none; margin:auto; width:1030px}
+#nav ul li{ float:left; width:90px; text-align:center;text-shadow:#333 1px 1px 1px}
+#nav ul li a{ display:block; color:#FFF; cursor:pointer; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s;}/* ±³¾°ÑÕÉ«¹ý¶ÉÐ§¹û */
+#nav ul li a:hover{ background:#e15782; color: #FFF; font-weight:bold; border-radius:40px 0}
+#nav ul li a#nav_current {font-weight:bold;}
+/* bloglist index */
+article{width:1000px; margin:auto; overflow:auto; }
+/*content*/
+.blog{ width:720px; float:left; padding:0 20px;border-radius:10px;background:#E5F3F7}
+.blog h2{ font-size:14px; background:url(../images/import.gif) no-repeat 0 16px; padding: 10px 0 0 20px; line-height:30px}
+.blog h2 a{ color:#333;-webkit-transition:all 1s;-moz-transition:all 1s;-o-transition:all 1s;-ms-transition:all 1s}
+.blog h2 a:hover{ padding:0 0 0 20px; }
+.topimg img{ width:250px; clear:left; float:left; margin-right:10px}
+.content p{ margin:0 0 10px 0; line-height:1.6}
+.read{ width:100%; margin:10px 0; padding:10px 0; text-align:right;}
+.read a{ background: #F60; color:#FFF; padding:5px; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
+.read a:hover{ text-decoration:underline}
+.datetime{ margin:10px 0}
+aside{ float:right; width:200px; overflow: hidden; position:fixed;top:200px;left:980px;}
+aside h2{ font-size:14px; margin:10px 0;color:#2F5711; }
+.share{ margin:10px 0; }
+aside ul{ padding:10px 0; list-style:none}
+aside ul li{ line-height:22px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+aside ul li a{ color: #fff; text-shadow:#06C 1px 1px 1px;-webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; }
+aside ul li a:hover{ background:#2F5711; padding:5px }
+/* footer */
+#copright{line-height:50px; height:50px; text-align:center; width:100%;color:#fff;text-shadow:#06C 1px 1px 1px;}
